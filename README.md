@@ -19,6 +19,22 @@ O objetivo é explorar os dados comerciais da AdventureWorks por meio de indicad
 - **DAX (Data Analysis Expressions):** desenvolvimento de medidas e indicadores.
 - **AdventureWorks DW 2020:** base de dados utilizada no projeto.
 
+## Desafios técnicos e aprendizados
+
+Durante o desenvolvimento do projeto, um dos principais desafios foi a implementação e validação dos indicadores de variação mensal (MoM).
+
+Foi necessário investigar o comportamento dos cálculos percentuais, especialmente diante de variações muito elevadas e dos resultados apresentados na linha de totalização.
+
+Para compreender e validar os resultados, foram exploradas diferentes abordagens utilizando DAX, comparando os cálculos e observando o comportamento das medidas em diferentes contextos de filtro.
+
+Esse processo contribuiu para aprofundar conhecimentos sobre:
+
+- Contexto de filtro no Power BI.
+- Funções de inteligência temporal.
+- Diferença entre variação absoluta e crescimento percentual.
+- Comportamento de medidas DAX em linhas de totalização.
+- Validação e interpretação de indicadores analíticos.
+
 ## Estrutura do dashboard
 
 O relatório foi organizado em três páginas:
